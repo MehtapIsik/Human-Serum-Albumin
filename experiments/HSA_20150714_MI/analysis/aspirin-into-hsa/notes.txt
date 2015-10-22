@@ -1,0 +1,3 @@
+python /Users/isikm/lab/wetlab_related/bayesian-itc/scripts/bitc_util.py ../../results/20150717a4.itc 
+
+python /Users/isikm/lab/wetlab_related/bayesian-itc/scripts/bitc_util.py mcmc ../../results/20150717a4.itc -w bayesian -vvv -m TwoComponent --niters=200000 --nburn=10000 --nthin=10 --nfit=100
